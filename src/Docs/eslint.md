@@ -12,7 +12,6 @@ Instalado, o Eslint, como estamos usando apenas no projeto (e não globalmente),
 ./node_modules/.bin/eslint --init
 ```
 
-
 Importante notar que o parser a ser usado deve ser o `babel-eslint` parser. Basta colocar esta config no `.eslinrc.js`.  
 
 ## .eslintrc.json
@@ -41,14 +40,4 @@ Segue config básica:
         "prettier"
     ]
 }
-```
-
-# NPM Scripts
-
-## npm run lint 
-O script lint vai rodar o ESlint em todos os arquivos javascript que estejam no /src. 
-basta adicionar em `scripts` no `package.json` a seguinte linha:
-
-``` json
-"lint": "./node_modules/.bin/eslint src/*.js"
 ```

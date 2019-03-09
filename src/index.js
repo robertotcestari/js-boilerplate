@@ -1,1 +1,0 @@
-var beto = 'beto'
