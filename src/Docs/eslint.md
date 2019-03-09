@@ -6,7 +6,7 @@ Para instalar o Eslint, basta usar o seguinte código:
 npm install eslint --save-dev
 ```
 
-Instalado, o Eslint, como estamos usando apenas no projeto (e não globalmente), para começar a usá-lo, basta digitar o comando: 
+Instalado, o Eslint, como estamos usando apenas no projeto (e não globalmente), para começar a usá-lo, basta digitar o comando:
 
 ``` batch
 ./node_modules/.bin/eslint --init

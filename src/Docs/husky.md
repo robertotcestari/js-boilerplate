@@ -8,8 +8,7 @@ Depois, no `package.json` a gente coloca a seguinte linha:
 ```json
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-push": "npm run lint"
     }
   }
 ```
