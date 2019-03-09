@@ -41,3 +41,8 @@ Segue config básica:
     ]
 }
 ```
+
+## Desabilitando eslint para algumas pastas
+
+Não é interessante que o ESlint atue nas pastas /dist ou /node_modules.
+Para isto, basta criar um arquivo `eslintignore` na raiz, e colocar `/node_modules` e `/dist`.
