@@ -1,1 +1,1 @@
-// console.log('beto é o cara')
+require('./app')
