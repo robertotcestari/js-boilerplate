@@ -1,1 +1,3 @@
-require('./app')
+import * as funcao from './app'
+
+funcao.beto()
